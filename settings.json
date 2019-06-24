@@ -1,0 +1,14 @@
+{
+  "servers": [
+    {
+      "id": "hypixel",
+      "name": "Hypixel",
+      "address": "hypixel.net"
+    },
+    {
+      "id": "vipermc",
+      "name": "Viper",
+      "address": "play.vipermc.net"
+    }
+  ]
+}

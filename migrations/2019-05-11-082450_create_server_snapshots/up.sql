@@ -1,0 +1,9 @@
+CREATE TABLE server_snapshots
+(
+    id      INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    server  VARCHAR   NOT NULL,
+    players INTEGER   NOT NULL DEFAULT 0,
+    time    TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    FOREIGN KEY (server) REFERENCES servers (id)
+)
